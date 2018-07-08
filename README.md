@@ -1,1 +1,1 @@
-# Twitter Clone MVC
+# Twitter Clone MVC Web Development training. HTML, CSS JavaScript or PHP
