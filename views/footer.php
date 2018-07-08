@@ -55,20 +55,25 @@
 </div>
 
 <script>
+    $("#toogleLogin").click(function() {
 
-    $("#toogleLogin").click(function(){
-       
         if ($("#loginActive").val() == "1") {
-            
+
             $("#loginActive").val(0);
             $("#loginModalTitle").html("Sign Up");
             $("#loginBtn").html("Sign Up");
             $("#toogleLogin").html("Login");
 
+        } else {
+            $("#loginActive").val(1);
+            $("#loginModalTitle").html("Login");
+            $("#loginBtn").html("Login");
+            $("#toogleLogin").html("Sign up");
+
         }
-        
+
     });
-    
+
 </script>
 
 </body>
